@@ -11,7 +11,7 @@ Predicting Bike Rentals Using Different Machine Learning Algorithms
 ### Data Loading and Ploting
 
 - The datafram has 17379 rows and 17 columns
-<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/bike0.png" width="40%">
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/bike0.png" width="100%">
    
 
     ```python
@@ -44,7 +44,7 @@ Predicting Bike Rentals Using Different Machine Learning Algorithms
 ### Corelations Matrix
 
 Corelations between columns 
-<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/bike1" width="40%">
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-07-28_at_12.56.30_PM.png" width="40%">
 
 
 Corelations between columns and the target variable ['cnt'] in this case
@@ -149,7 +149,7 @@ RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
                       random_state=1, verbose=0, warm_start=False)
 ```
 
-<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/untitled.png">
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/bike4.png">
 
 ## Model Evaluation and Predictions
 
