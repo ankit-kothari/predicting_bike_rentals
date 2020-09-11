@@ -1,4 +1,4 @@
-# predicting_bike_rentals
+# Predicting Bike Rentals
 Predicting Bike Rentals Using Different Machine Learning Algorithms
 
 ## Code
@@ -44,7 +44,8 @@ Predicting Bike Rentals Using Different Machine Learning Algorithms
 ### Corelations Matrix
 
 Corelations between columns 
-<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-07-28_at_12.56.30_PM.png" width="40%">
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-07-28_at_12.56.30_PM.png" width="30%">
+
 
 
 Corelations between columns and the target variable ['cnt'] in this case
