@@ -5,19 +5,13 @@ Predicting Bike Rentals Using Different Machine Learning Algorithms
 
 [Google Colaboratory](https://colab.research.google.com/drive/116SH8JJiB4T9fvHb9gCbxirgiOCWmOKd?usp=sharing)
 
-## Performance Criteria
-
-<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-07-08_at_1.31.21_AM.png" width="40%">
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7b922fca-b436-4592-af79-ea744bf54e06/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7b922fca-b436-4592-af79-ea744bf54e06/Untitled.png)
-
-Formula for Mean Squared Error
 
 ## Data Prepration
 
 ### Data Loading and Ploting
 
 - The datafram has 17379 rows and 17 columns
-<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-07-28_at_11.12.29_AM.png" width="40%">
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/bike0.png" width="40%">
    
 
     ```python
@@ -33,8 +27,8 @@ Formula for Mean Squared Error
 
 - Count of bikes rented per hour for each of the row in the dataset.
 
-<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-07-28_at_11.12.29_AM.png" width="40%">
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d8ec8e0-6872-44f5-b396-0507b4238a09/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d8ec8e0-6872-44f5-b396-0507b4238a09/Untitled.png)
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/bike1.png" width="40%">
+   
 
 ## Feature engineering
 
@@ -49,13 +43,12 @@ Formula for Mean Squared Error
 
 ### Corelations Matrix
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c2ba7e76-7e01-4f68-bbb1-3f2494675e97/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c2ba7e76-7e01-4f68-bbb1-3f2494675e97/Untitled.png)
-<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-07-28_at_11.12.29_AM.png" width="40%">
 Corelations between columns 
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/bike1" width="40%">
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/736150c5-63b2-4221-a51d-e680c8b2729c/Screen_Shot_2020-07-28_at_12.56.30_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/736150c5-63b2-4221-a51d-e680c8b2729c/Screen_Shot_2020-07-28_at_12.56.30_PM.png)
-<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-07-28_at_11.12.29_AM.png" width="40%">
+
 Corelations between columns and the target variable ['cnt'] in this case
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/bike2.png" width="40%">
 
 ### Dropping Redundant Columns
 
@@ -82,7 +75,7 @@ DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
                       random_state=1, splitter='best')
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb7039ba-0716-4a1f-add1-b8a865dd6695/Screen_Shot_2020-07-28_at_3.50.44_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb7039ba-0716-4a1f-add1-b8a865dd6695/Screen_Shot_2020-07-28_at_3.50.44_PM.png)
+
 <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-07-28_at_3.50.44_PM.png">
 
 ### Model 2: Decesion Tree with (max_depth=15, min_samples_leaf=5)
@@ -138,7 +131,6 @@ RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
                       random_state=1, verbose=0, warm_start=False)
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef0b0575-6abb-4d37-abf8-99090902caaf/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef0b0575-6abb-4d37-abf8-99090902caaf/Untitled.png)
 <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-07-28_at_3.52.34_PM.png">
 
 ### Model 4: Random Forest with  (n_estimators=30, min_samples_leaf=2)
@@ -157,7 +149,7 @@ RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
                       random_state=1, verbose=0, warm_start=False)
 ```
 
-
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/untitled.png">
 
 ## Model Evaluation and Predictions
 
