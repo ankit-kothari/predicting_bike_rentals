@@ -42,12 +42,8 @@ Predicting Bike Rentals Using Different Machine Learning Algorithms
 <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-07-28_at_11.43.52_AM.png" width="40%">
 
 ### Corelations Matrix
-
-Corelations between columns and the target variable ['cnt'] in this case
-<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/bike2.png" width="40%">
-Corelations between columns 
+Corelations between columns and the target variable ['cnt'] in this case <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/bike2.png" width="40%"> Corelations between columns 
 <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-07-28_at_12.56.30_PM.png" width="30%">
-
 ### Dropping Redundant Columns
 
 - Calculationg correlations for the total bikes rented and removing columns that do not contribute to model performance.
